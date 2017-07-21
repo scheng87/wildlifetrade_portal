@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "adata = function(env_serv) with (env_serv, {\n  intdef <- reactive({\n    data <- filter(definitions,Term == input$intervention_def)\n    def <- data$Definition\n  })\n  \n  intex <- reactive({\n    data <- filter(definitions,Term == input$intervention_def)\n    ex <- data$Example\n  })\n  \n  output$int_def2 <- renderText({\n    paste(as.character(intdef()))\n  })\n  \n  output$int_def3 <- renderText({\n    paste(as.character(intex()))\n  })\n  \n  outdef <- reactive({\n    data <- filter(definitions,Term == input$outcome_def)\n    def <- data$Definition\n  })\n  outex <- reactive({\n    data <- filter(definitions,Term == input$outcome_def)\n    ex <- data$Example\n  })\n  \n  output$out_def2 <- renderText({\n    paste(as.character(outdef()))\n  })\n  \n  output$out_def3 <- renderText({\n    paste(as.character(outex()))\n  })\n  \n  studydef <- reactive({\n    data <- filter(definitions,Term == input$study_def)\n    def <- data$Definition\n  })\n  studyex <- reactive({\n    data <- filter(definitions,Term == input$study_def1)\n    ex <- data$Example\n  })\n  \n  output$study_def2 <- renderText({\n    paste(as.character(studydef()))\n  })\n  \n  output$study_def3 <- renderText({\n    paste(as.character(studyex()))\n  })\n  \n  video2 <- (\"https://www.youtube.com/embed/MscOjSQMovs\")\n  output$howto2 <- renderUI({\n    my_test <- tags$iframe(src=video, height=360, width=640,scrolling=\"no\",allowfullscreen=\"yes\")\n    print(my_test)\n    my_test\n  })\n})\n\n",
+    "created" : 1500594393113.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3711090173",
+    "id" : "3BBEC2E3",
+    "lastKnownWriteTime" : 1500594960,
+    "last_content_update" : 1500594960143,
+    "path" : "~/Documents/github/wildlife_trade_portal/server_about.R",
+    "project_path" : "server_about.R",
+    "properties" : {
+    },
+    "relative_order" : 9,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -24,7 +24,7 @@ library(stringr)
 library(dplyr)
 
 setwd("~/Documents/github/wildlife_trade_portal/")
-#setwd("/srv/shiny-server/iwt_portal/")
+#setwd("/srv/shiny-server/wildlifetrade/")
 load("data/IWT_Evidence_Map.RData")
 map_data_final <- readRDS("data/map_data_final.rds")
 source("functions.R")

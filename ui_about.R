@@ -11,7 +11,7 @@ ameth = function()
              p("In systematic mapping, the searching and inclusion processes are conducted with the same comprehensive method as for a full review, but the process does not extend to critical appraisal or data synthesis. Data are however extracted from included studies in order to describe important aspects of the studies using a standard template and defined keywords and coding. This approach is designed to capture information on generic variables, such as the country in which a study took place, the population focus, study design and the intervention being assessed. This standard and well-defined set of keywords and codes is essential whenever classifying and characterising studies in order for reviewers to pull out key aspects of each study in a systematic way. Once the research has been mapped in this way it is then possible to identify pools of research which may be used to identify more narrowly defined review questions."),
              p("Source: ",a("CIFOR Guidance on systematic maps",href="http://www.cifor.org/fileadmin/subsites/ebf/pubs/Guidance_Systematic_Maps.pdf")),
              br(),
-             p("You can read more about our systematic mapping process and criteria in our working paper (",a("Cheng et al. 2017",href="http://www.conservation.org/publications"),").")
+             p("You can read more about our systematic mapping process and criteria in our working paper (",a("Cheng et al. 2017",href="http://www.conservation.org/wildlifetrade"),").")
       ),
       column(4,
              h3(div(strong("RESOURCES")),align="center"),
@@ -48,8 +48,8 @@ adata = function()
                         h3(div(strong("How the data was compiled")),align="center"),
                         hr(),
                         p("The data in this portal derives from a systematic map of evidence that measures the effectiveness of international wildlife trade actions on behavioral, biological and human well-being outcomes."),
-                        p("For more information on specific inclusion and exclusion criteria and parameters of this search, please refer to working paper (", a("Cheng et al. 2017",href="http://www.theoatmeal.com"), ")."),
-                        p("For metadata on data columns, please refer to the codebook from Cheng et al. 2017 available ",a("here",href="http://www.theoatmeal.com"),"."),
+                        p("For more information on specific inclusion and exclusion criteria and parameters of this search, please refer to working paper (", a("Cheng et al. 2017",href="http://www.conservation.org/wildlifetrade"), ")."),
+                        p("For metadata on data columns, please refer to the codebook from Cheng et al. 2017 available ",a("here",href="http://conservation.org.s3.amazonaws.com/Documents/Appendix3_DataQuestionnaire_Codebook.xlsm?_ga=2.124281802.1387627695.1500951307-674979909.1500951307"),"."),
                         p("For more information about the process of conducting systematic maps, please see the ", span(strong("METHOD")), "tab and detailed guidelines at the Collaboration for Environmental Evidence's ",a("website",href="http://environmentalevidence.org/wp-content/uploads/2014/06/Review-guidelines-version-4.2-final.pdf"))
                ),
                tabPanel("The Tool",
@@ -66,7 +66,6 @@ adata = function()
                         h5(div(strong("Where do I filter data and explore it? Why are there so many different options?"))),
                         p("This site is constantly in development and we are refining it to make searching for and exploring data as functional and intuitive as possible. As well, while Shiny is a fantastic method for visualizing data, it can be difficult to incorporate multiple elements that it is not designed for. Hence, there are different tabs for exploring data. We encourage you to watch the how-to video on how to explore, filter, and download data."),
                         p("In general, options for exploration are located in the ",span(strong("EXPLORE"),style="color:#006666")," section. In the ",span(strong("EVIDENCE MAP"),style="color:#006666")," tab, you will find an interactive evidence map that highlights the number of articles that document a specific linkage between a type of intervention and a type of outcome. You can filter this map by region, major habitat type, and study type. You can also view the data table behind this map by clicking on the ",span(strong("DATA TABLE"),style="color:#006666")," tab."),
-                        p("The ",span(strong("LINKAGE EXPLORER"),style="color:#006666")," affords a different interaction with the map, allowing you dive into a specific linkage and view a bibliography of included articles."),
                         p("The ",span(strong("DASHBOARD"),style="color:#006666")," tab allows for filtering by geographic region, habitat/ecoregion type, intervention type, and outcome type. Here you can view summaries of different variables, explore the full data, and visualize spatially on both choropleth and interactive maps."),
                         br(),
                         h5(div(strong("Are there other efforts to expand from this evidence map or on other topics?"))),

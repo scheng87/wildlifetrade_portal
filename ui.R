@@ -90,7 +90,7 @@ shinyUI(
                                  align="center",
                                  h3(div(strong("USER REGISTRATION"),style="color:#006699")),
                                  p("In order to download datasets from this portal, we ask that users complete a registration agreeing to appropriately cite the source of the data as:"),
-                                 p(a("Cheng SH, Robinson JE, Cox N, Biggs D, Olsson A, Mascia M, McKinnon MC. (2017) Mapping the evidence: effectiveness of international wildlife trade practices and policies. Conservation International Working Paper Series: 1.",href="https://www.conservation.org/publications/")),
+                                 p(a("Cheng SH, Robinson JE, Cox N, Biggs D, Olsson A, Mascia M, McKinnon MC. (2017) Mapping the evidence: effectiveness of international wildlife trade practices and policies. Conservation International Working Paper Series: 1.",href="https://www.conservation.org/wildlifetrade/")),
                                  hr(),
                                  textInput("name", "Name", ""),
                                  textInput("email","Email",""),

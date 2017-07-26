@@ -14,7 +14,7 @@ fluidPage(
   fluidRow(
     column(8, offset=2,
            br(),
-           p(div("Welcome to the data portal for International Wildlife Trade (a sub-portal of the ", a("Evidence for Nature and People Data Portal",href="http://www.natureandpeopleevidence.org"),". This sub-portal features data from a systematic map on the effectiveness of international wildlife trade practices and policies drawn from 42 peer-reviewed and grey literature sources (", a("Cheng et al. 2017",href="http://conservation.org/wildlifetrade"),"). Here, you can access the knowledge management tool and various analytic dashboards for filtering and visualizing the data.", style="font-size:20px;color:#0e2f44;"),align="left"),
+           p(div("Welcome to the data portal for International Wildlife Trade (a sub-portal of the ", a("Evidence for Nature and People Data Portal",href="http://www.natureandpeopleevidence.org"),"). This sub-portal features data from a systematic map on the effectiveness of international wildlife trade practices and policies drawn from 42 peer-reviewed and grey literature sources (", a("Cheng et al. 2017",href="http://conservation.org/wildlifetrade"),"). Here, you can access the knowledge management tool and various analytic dashboards for filtering and visualizing the data.", style="font-size:20px;color:#0e2f44;"),align="left"),
            div(class = "intro-divider"),
            br(),
            h3(div(strong("HOW TO USE"),style="color:#006699"),align="center"),

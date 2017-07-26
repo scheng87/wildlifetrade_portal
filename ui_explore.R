@@ -56,9 +56,9 @@ elink = function()
                       tabsetPanel(
                         type="tabs",
                         tabPanel("Evidence Map",
-                                 h3("Evidence map of conservation-human well-being linkages"),
+                                 h3("Evidence map of international wildlife trade program and policy impacts"),
                                  hr(),
-                                 h5(div(em("Numbers within the evidence map indicate how many unique articles document that nature-based intervention and human well-being outcome linkage. Filter the evidence map by desired region and biome on the left panel."))),
+                                 h5(div(em("Numbers within the evidence map indicate how many unique articles document a linkage between a international wildlife trade program or policy type and behavioural, biological, or human well-being outcome tye. Articles can fall into more than one linkage cell. Filter the evidence map by desired region and part of the supply chain it examines on the left panel."))),
                                  plotOutput("heatmap",height=562,width=825)
                         ),
                         tabPanel("Data Table",
